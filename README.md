@@ -119,8 +119,6 @@ The models I used were LinearRegression, Lasso, Ridge, ElasticNet, RandomForestR
 ### Model Performance
 
 SVR outperformed the other models on both the training and test sets, and in every metric. <br />
-
-**SVR**<br />
 * MSE: 0.61430
 * RMSE: 0.78377 (783.77 USD)
 * MAE: 0.50269 (502.69 USD)
