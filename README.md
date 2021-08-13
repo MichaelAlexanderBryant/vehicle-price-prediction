@@ -106,6 +106,8 @@ I cleaned the data to make the dataset usable for future modeling. I made the fo
 I feature engineered using the dataset for future modeling. I made the following changes:
 * Created dummy variables for `Car_Name`, `Fuel_Type`, `Seller_Type`, `Transmission`, and `Owner`
 
+### Modeling
+
 ### Feature Importance
 
 <div align="center">
