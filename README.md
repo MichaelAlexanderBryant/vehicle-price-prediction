@@ -126,7 +126,7 @@ SVR outperformed the other models on both the training and test sets, and in eve
 
 ### Feature Importance
 
-The most important features for the SVR model were `Seller_Type`, `Present_Price`, and `Year` as shown in Figure 7. When the vehicles were sold by the owner rather than by a dealer, the selling price was significantly less. The other two features are self-explanatory where the current average selling price and year of the vehicle are positively highly-correlated with the sale price. `Kms_Driven` is not a significant factor, but this is likely due to being correlated with `Year`.
+The most important features for the SVR model were `Seller_Type`, `Present_Price`, and `Year` as shown in Figure 7. When the vehicles were sold by the owner rather than by a dealer, the selling price was significantly less. The other two features are self-explanatory where the current average selling price and year of the vehicle are positively highly-correlated with the sale price. `Kms_Driven` does not rank high in feature importance, but this is likely due to being correlated with `Year`.
 
 <div align="center">
   
