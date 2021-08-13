@@ -138,6 +138,16 @@ SVR outperformed the other models on both the training and test sets, and in eve
 
 ## Productionization
 
+I built a [Heroku web app](https://predict-vehicle-price.herokuapp.com/) with a front end which takes vehicle input from the user and outputs a predicted price using the SVR model. More information on this can be found at it's [repo](https://github.com/MichaelBryantDS/vehicle-price-pred-app).
+
+<figure>
+<img src="images/web-app.jpg"><br/>
+  <figcaption>Figure 8: Front end of application using the SVR model.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
 ## Resources
 
 1. [Kaggle: Vehicle dataset](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho)
