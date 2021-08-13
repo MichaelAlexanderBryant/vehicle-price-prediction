@@ -5,7 +5,7 @@ This repository is for the analysis and modeling done on the Kaggle: Vehicle Sal
 ### Code Used 
 
 **Python Version:** 3.8.11 <br />
-**Packages:** pandas, numpy, scipy, sklearn, matplotlib, seaborn, flask, statsmodels, shap, eli5  <br />
+**Packages:** pandas, numpy, scipy, sklearn, matplotlib, seaborn, flask, statsmodels, shap, eli5, pickle<br />
 **For Web Framework Requirements:**  ```pip install -r requirements.txt```  
 
 ## Vehicle Sales Dataset
