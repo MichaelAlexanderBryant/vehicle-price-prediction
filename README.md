@@ -140,6 +140,8 @@ SVR outperformed the other models on both the training and test sets, and in eve
 
 I built a [Heroku web app](https://predict-vehicle-price.herokuapp.com/) with a front end which takes vehicle input from the user and outputs a predicted price using the SVR model. More information on this can be found at it's [repo](https://github.com/MichaelBryantDS/vehicle-price-pred-app).
 
+<div align="center">
+  
 <figure>
 <img src="images/web-app.JPG"><br/>
   <figcaption>Figure 8: Front end of application using the SVR model.</figcaption>
