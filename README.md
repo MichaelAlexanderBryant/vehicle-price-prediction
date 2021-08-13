@@ -20,7 +20,7 @@ The dataset was gathered from [Kaggle](https://www.kaggle.com/nehalbirla/vehicle
 
 ### eda-cleaning-engineering.py
 
-This file contains the exploratory data analysis (EDA) and data cleaning. The EDA is performed using descriptive statistics, histograms to determine distributions, a correlation heatmap using the Pearson correlation coefficient, and ordinary least squares regression (to determine important variables with p-values and their impact through their coefficients). The cleaning is performed by assigning numbers to strings and features are engineered using dummy variables. The variables are scaled using MinMaxScaler.
+This file contains the exploratory data analysis (EDA), data cleaning, and feature engineering. The EDA is performed using descriptive statistics, histograms to determine distributions, a correlation heatmap using the Pearson correlation coefficient, and ordinary least squares regression (to determine important variables with p-values and their impact through their coefficients). The cleaning is performed by assigning numbers to strings and features are engineered using dummy variables. The variables are scaled using MinMaxScaler.
 
 ### modeling.py
 
@@ -103,7 +103,7 @@ I cleaned the data to make the dataset usable for future modeling. I made the fo
 * Replaced strings with numbers for `Car_Name`, `Fuel_Type`, `Seller_Type`, `Transmission`, and `Owner`
 * Assigned dtypes to all variables
 
-### Featured Engineering
+### Feature Engineering
 
 I feature engineered using the dataset for future modeling. I made the following changes:
 * Created dummy variables for `Car_Name`, `Fuel_Type`, `Seller_Type`, `Transmission`, and `Owner`
