@@ -38,7 +38,7 @@ This file contains the best model (SVR) and it is pickled for use with the appli
   
 <figure>
 <img src="images/corr-heatmap.jpg">
-  <figcaption></figcaption>
+  <figcaption>Figure 1: Correlation heatmap for the numerical variables using the Pearson correlation coefficient.</figcaption>
 </figure>
 <br/><br/>
   
@@ -48,7 +48,7 @@ This file contains the best model (SVR) and it is pickled for use with the appli
   
 <figure>
 <img src="images/kms-year.jpg">
-  <figcaption></figcaption>
+  <figcaption>Figure 2: Scatter plot with regression model showing relationship between kilometers driven and year of vehicle.</figcaption>
 </figure>
 <br/><br/>
   
@@ -58,7 +58,7 @@ This file contains the best model (SVR) and it is pickled for use with the appli
   
 <figure>
 <img src="images/present-price-seller-type.jpg">
-  <figcaption></figcaption>
+  <figcaption>Figure 3: Violin plot showing a difference in distribution for present price between dealer (0) and individual (1) seller types.</figcaption>
 </figure>
 <br/><br/>
   
@@ -68,7 +68,7 @@ This file contains the best model (SVR) and it is pickled for use with the appli
   
 <figure>
 <img src="images/present-price-selling-price.jpg">
-  <figcaption></figcaption>
+  <figcaption>Figure 4: Scatter plot and regression model showing relationship between present price and selling price of the vehicles.</figcaption>
 </figure>
 <br/><br/>
   
@@ -78,7 +78,7 @@ This file contains the best model (SVR) and it is pickled for use with the appli
   
 <figure>
 <img src="images/selling-price-fuel-type.jpg">
-  <figcaption></figcaption>
+  <figcaption>Figure 5: Strip plot showing the different distributions for selling price between Petrol (0), Diesel (1), and CNG (3) fuel types.</figcaption>
 </figure>
 <br/><br/>
   
@@ -88,7 +88,7 @@ This file contains the best model (SVR) and it is pickled for use with the appli
   
 <figure>
 <img src="images/selling-price-seller-type.jpg">
-  <figcaption></figcaption>
+  <figcaption>Figure 6: Violin plot showing a difference in distribution for selling price between dealer (0) and individual (1) seller types.</figcaption>
 </figure>
 <br/><br/>
   
@@ -114,7 +114,7 @@ I feature engineered using the dataset for future modeling. I made the following
   
 <figure>
 <img src="images/shap-results.jpg">
-  <figcaption></figcaption>
+  <figcaption>Figure 7: SHAP summary plot of the feature importance for the SVC model.</figcaption>
 </figure>
 <br/><br/>
   
