@@ -1,9 +1,5 @@
 # Project 2: Vehicle Sales Price Prediction (Python)
 
-[Link to app](https://predict-vehicle-price.herokuapp.com/)
-
-[Link to app repo](https://github.com/MichaelBryantDS/vehicle-price-pred-app)
-
 This repository is for the analysis and modeling done on the Kaggle: Vehicle Sales dataset. Below you will find an overview of the data, code, and results. The goal of this project was to create and end-to-end project where I perform an exploratory data analysis, prepare the data (i.e., clean and feature engineer), apply machine learning algorithms to predict the sales price of vehicles, and create a deployed application to productionize the model.
 
 ### Code Used 
@@ -49,6 +45,10 @@ I cleaned the data to make the dataset usable for future modeling. I made the fo
 I feature engineered using the dataset for future modeling. I made the following changes:
 
 ## Applications
+
+[Link to app](https://predict-vehicle-price.herokuapp.com/)
+
+[Link to app repo](https://github.com/MichaelBryantDS/vehicle-price-pred-app)
 
 ## Resources
 
