@@ -37,7 +37,7 @@ This file contains the best model (SVR) and it is pickled for use with the appli
 <div align="center">
   
 <figure>
-<img src="images/corr-heatmap.png">
+<img src="">
   <figcaption></figcaption>
 </figure>
 <br/><br/>
