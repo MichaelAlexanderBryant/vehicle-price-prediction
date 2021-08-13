@@ -24,9 +24,11 @@ This file contains the exploratory data analysis (EDA) and data cleaning. The ED
 
 ### modeling.py
 
-This file contains the modeling where I hyperparameter tune: LinearRegression, Lasso, Ridge, ElasticNet, RandomForestRegressor, GradientBoostingRegressor, SVR, StackingRegressor, VotingRegressor, BaggingRegressor, BaggingRegressor (with pasting), and AdaBoostRegressor. The models are hyperparameter tuned with GridSearchCV based on NMAE and the best models are judged based on MSE, RMSE, MAE, and R-squared metrics. This file also contains code to derive the feature importance from the best models using shap and eli5.
+This file contains the modeling where I hyperparameter tune: LinearRegression, Lasso, Ridge, ElasticNet, RandomForestRegressor, GradientBoostingRegressor, SVR, StackingRegressor, VotingRegressor, BaggingRegressor, BaggingRegressor (with pasting), and AdaBoostRegressor. The models are hyperparameter tuned with GridSearchCV based on NMAE and the best models are judged based on MSE, RMSE, MAE, and R-squared metrics. This file also contains code to derive the feature importance from the best models using shap and eli5. The scaler is pickled for use with the application.
 
 ### final-model.py
+
+This file contains the best model (SVR) and it is pickled for use with the application.
 
 ## Results
 
