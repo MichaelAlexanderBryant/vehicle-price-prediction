@@ -34,6 +34,8 @@ This file contains the best model (SVR) and it is pickled for use with the appli
 
 ### EDA
 
+I looked at the distributions of the data and the correlations between variables. Below are some of the highlights:
+
 <div align="center">
   
 <figure>
@@ -106,7 +108,9 @@ I cleaned the data to make the dataset usable for future modeling. I made the fo
 I feature engineered using the dataset for future modeling. I made the following changes:
 * Created dummy variables for `Car_Name`, `Fuel_Type`, `Seller_Type`, `Transmission`, and `Owner`
 
-### Modeling
+### Model Building
+
+### Model Performance
 
 ### Feature Importance
 
@@ -120,7 +124,7 @@ I feature engineered using the dataset for future modeling. I made the following
   
 </div>
 
-## Applications
+## Productionization
 
 ## Resources
 
