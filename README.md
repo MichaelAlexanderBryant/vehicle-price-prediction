@@ -20,7 +20,7 @@ The dataset was gathered from [Kaggle](https://www.kaggle.com/nehalbirla/vehicle
 
 ### eda-cleaning-engineering.py
 
-This file contains the exploratory data analysis (EDA) and data cleaning. The EDA is performed using descriptive statistics, histograms to determine distributions, a correlation heat map using the Pearson correlation coefficient, and ordinary least squares regression (to determine important variables with p-values and their impact through their coefficients). The cleaning is performed by assigning numbers to strings and features are engineered using dummy variables. The variables are scaled using MinMaxScaler.
+This file contains the exploratory data analysis (EDA) and data cleaning. The EDA is performed using descriptive statistics, histograms to determine distributions, a correlation heatmap using the Pearson correlation coefficient, and ordinary least squares regression (to determine important variables with p-values and their impact through their coefficients). The cleaning is performed by assigning numbers to strings and features are engineered using dummy variables. The variables are scaled using MinMaxScaler.
 
 ### modeling.py
 
