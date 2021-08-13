@@ -18,9 +18,11 @@ The dataset was gathered from [Kaggle](https://www.kaggle.com/nehalbirla/vehicle
 
 ### Variables
 
-## heart-disease.ipynb
+## vehicle-sales-eda-cleaning.py
 
-This is the Jupyter Notebook which contains the exploratory data analysis, data cleaning, feature engineering, and ML modeling which was performed on [Kaggle](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho).
+## vehicle-sales-modeling.py
+
+## vehicle-sales-final-model.py
 
 ## Results
 
