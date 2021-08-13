@@ -46,9 +46,9 @@ I feature engineered using the dataset for future modeling. I made the following
 
 ## Applications
 
-[Link to app](https://predict-vehicle-price.herokuapp.com/)
+[Web app](https://predict-vehicle-price.herokuapp.com/) and [Web app repo](https://github.com/MichaelBryantDS/vehicle-price-pred-app)
 
-[Link to app repo](https://github.com/MichaelBryantDS/vehicle-price-pred-app)
+
 
 ## Resources
 
