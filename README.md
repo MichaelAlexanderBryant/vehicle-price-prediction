@@ -37,7 +37,7 @@ This file contains the best model (SVR) and it is pickled for use with the appli
 <div align="center">
   
 <figure>
-<img src="corr-heatmap.jpg">
+<img src="images/corr-heatmap.jpg">
   <figcaption></figcaption>
 </figure>
 <br/><br/>
@@ -47,7 +47,7 @@ This file contains the best model (SVR) and it is pickled for use with the appli
 <div align="center">
   
 <figure>
-<img src="kms-year.jpg">
+<img src="images/kms-year.jpg">
   <figcaption></figcaption>
 </figure>
 <br/><br/>
@@ -57,7 +57,7 @@ This file contains the best model (SVR) and it is pickled for use with the appli
 <div align="center">
   
 <figure>
-<img src="present-price-seller-type.jpg">
+<img src="images/present-price-seller-type.jpg">
   <figcaption></figcaption>
 </figure>
 <br/><br/>
@@ -67,7 +67,7 @@ This file contains the best model (SVR) and it is pickled for use with the appli
 <div align="center">
   
 <figure>
-<img src="present-price-selling-price.jpg">
+<img src="images/present-price-selling-price.jpg">
   <figcaption></figcaption>
 </figure>
 <br/><br/>
@@ -77,7 +77,7 @@ This file contains the best model (SVR) and it is pickled for use with the appli
 <div align="center">
   
 <figure>
-<img src="selling-price-fuel-type.jpg">
+<img src="images/selling-price-fuel-type.jpg">
   <figcaption></figcaption>
 </figure>
 <br/><br/>
@@ -87,7 +87,7 @@ This file contains the best model (SVR) and it is pickled for use with the appli
 <div align="center">
   
 <figure>
-<img src="selling-price-seller-type.jpg">
+<img src="images/selling-price-seller-type.jpg">
   <figcaption></figcaption>
 </figure>
 <br/><br/>
