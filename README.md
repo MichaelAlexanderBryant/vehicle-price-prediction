@@ -18,9 +18,13 @@ The dataset was gathered from [Kaggle](https://www.kaggle.com/nehalbirla/vehicle
 
 ## Files
 
-### eda-cleaning.py
+### eda-cleaning-engineering.py
+
+This file contains the exploratory data analysis (EDA) and data cleaning. The EDA is performed using descriptive statistics, histograms to determine distributions, a correlation heat map using the Pearson correlation coefficient, and ordinary least squares regression (to determine important variables with p-values and their impact through their coefficients). The cleaning is performed by assigning numbers to strings and features are engineered using dummy variables. The variables are scaled using MinMaxScaler.
 
 ### modeling.py
+
+This file contains the modeling where I hyperparameter tune: LinearRegression, Lasso, Ridge, ElasticNet, RandomForestRegressor, GradientBoostingRegressor, SVR, StackingRegressor, VotingRegressor, BaggingRegressor, BaggingRegressor (with pasting), and AdaBoostRegressor. The models are hyperparameter tuned with GridSearchCV based on NMAE and the best models are judged based on MSE, RMSE, MAE, and R-squared metrics. This file also contains code to derive the feature importance from the best models using shap and eli5.
 
 ### final-model.py
 
