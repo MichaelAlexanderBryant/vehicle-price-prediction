@@ -16,11 +16,13 @@ The dataset was gathered from [Kaggle](https://www.kaggle.com/nehalbirla/vehicle
 
 `Car_Name`, `Year`, `Selling_Price`, `Present_Price`, `Kms_Driven`, `Fuel_Type`, `Seller_Type`, `Transmission`, `Owner`
 
-## vehicle-sales-eda-cleaning.py
+## Files
 
-## vehicle-sales-modeling.py
+### vehicle-sales-eda-cleaning.py
 
-## vehicle-sales-final-model.py
+### vehicle-sales-modeling.py
+
+### vehicle-sales-final-model.py
 
 ## Results
 
