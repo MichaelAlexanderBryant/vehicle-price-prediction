@@ -1,6 +1,6 @@
 # Project 2: Vehicle Sales Price Prediction (Python)
 
-[Link to app](https://vehicle-pricepred.herokuapp.com/)
+[Link to app](https://predict-vehicle-price.herokuapp.com/)
 
 [Link to app repo](https://github.com/MichaelBryantDS/vehicle-price-pred-app)
 
