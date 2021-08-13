@@ -37,7 +37,57 @@ This file contains the best model (SVR) and it is pickled for use with the appli
 <div align="center">
   
 <figure>
-<img src="">
+<img src="corr-heatmap.jpg">
+  <figcaption></figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<div align="center">
+  
+<figure>
+<img src="kms-year.jpg">
+  <figcaption></figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<div align="center">
+  
+<figure>
+<img src="present-price-seller-type.jpg">
+  <figcaption></figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<div align="center">
+  
+<figure>
+<img src="present-price-selling-price.jpg">
+  <figcaption></figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<div align="center">
+  
+<figure>
+<img src="selling-price-fuel-type.jpg">
+  <figcaption></figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<div align="center">
+  
+<figure>
+<img src="selling-price-seller-type.jpg">
   <figcaption></figcaption>
 </figure>
 <br/><br/>
@@ -53,6 +103,16 @@ I cleaned the data to make the dataset usable for future modeling. I made the fo
 I feature engineered using the dataset for future modeling. I made the following changes:
 
 ### Feature Importance
+
+<div align="center">
+  
+<figure>
+<img src="shap-results.jpg">
+  <figcaption></figcaption>
+</figure>
+<br/><br/>
+  
+</div>
 
 ## Applications
 
