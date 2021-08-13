@@ -37,7 +37,7 @@ This file contains the best model (SVR) and it is pickled for use with the appli
 <div align="center">
   
 <figure>
-<img src="">
+<img src="images/corr-heatmap.png">
   <figcaption></figcaption>
 </figure>
 <br/><br/>
@@ -51,6 +51,8 @@ I cleaned the data to make the dataset usable for future modeling. I made the fo
 ### Featured Engineering
 
 I feature engineered using the dataset for future modeling. I made the following changes:
+
+### Feature Importance
 
 ## Applications
 
