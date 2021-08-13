@@ -18,11 +18,11 @@ The dataset was gathered from [Kaggle](https://www.kaggle.com/nehalbirla/vehicle
 
 ## Files
 
-### vehicle-sales-eda-cleaning.py
+### eda-cleaning.py
 
-### vehicle-sales-modeling.py
+### modeling.py
 
-### vehicle-sales-final-model.py
+### final-model.py
 
 ## Results
 
