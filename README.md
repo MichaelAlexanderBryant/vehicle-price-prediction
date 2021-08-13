@@ -107,7 +107,7 @@ I feature engineered using the dataset for future modeling. I made the following
 <div align="center">
   
 <figure>
-<img src="shap-results.jpg">
+<img src="images/shap-results.jpg">
   <figcaption></figcaption>
 </figure>
 <br/><br/>
