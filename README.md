@@ -97,10 +97,14 @@ This file contains the best model (SVR) and it is pickled for use with the appli
 ### Data Cleaning
 
 I cleaned the data to make the dataset usable for future modeling. I made the following changes:
+* Capitalized all words in `Car_Name`
+* Replaced strings with numbers for `Car_Name`, `Fuel_Type`, `Seller_Type`, `Transmission`, and `Owner`
+* Assigned dtypes to all variables
 
 ### Featured Engineering
 
 I feature engineered using the dataset for future modeling. I made the following changes:
+* Created dummy variables for `Car_Name`, `Fuel_Type`, `Seller_Type`, `Transmission`, and `Owner`
 
 ### Feature Importance
 
