@@ -24,7 +24,7 @@ This file contains the exploratory data analysis (EDA) and data cleaning. The ED
 
 ### modeling.py
 
-This file contains the modeling where I hyperparameter tune: LinearRegression, Lasso, Ridge, ElasticNet, RandomForestRegressor, GradientBoostingRegressor, SVR, StackingRegressor, VotingRegressor, BaggingRegressor, BaggingRegressor (with pasting), and AdaBoostRegressor. The models are hyperparameter tuned with GridSearchCV based on NMAE and the best models are judged based on MSE, RMSE, MAE, and R-squared metrics. This file also contains code to derive the feature importance from the best models using shap and eli5. The scaler is pickled for use with the application.
+This file contains the modeling where I hyperparameter tune: LinearRegression, Lasso, Ridge, ElasticNet, RandomForestRegressor, GradientBoostingRegressor, SVR (support vector regression), StackingRegressor, VotingRegressor, BaggingRegressor, BaggingRegressor (with pasting), and AdaBoostRegressor. The models are hyperparameter tuned with GridSearchCV based on negative mean absolute error (NMAE) and the best models are judged based on mean square error (MSE), root mean square error (RMSE), MAE, and R-squared metrics. This file also contains code to derive the feature importance from the best models using shap and eli5. The scaler is pickled for use with the application.
 
 ### final-model.py
 
@@ -110,7 +110,21 @@ I feature engineered using the dataset for future modeling. I made the following
 
 ### Model Building
 
+First, I split the data into train and tests sets with a test size of 25%.
+
+I then hyperparameter tuned 12 different models and evaluated them using NMAE. I chose MAE because there aren't many outliers and I didn't want the error to disproportionately represent the outliers.
+
+The models I used were LinearRegression, Lasso, Ridge, ElasticNet, RandomForestRegressor, GradientBoostingRegressor, SVR, StackingRegressor, VotingRegressor, BaggingRegressor, BaggingRegressor (with pasting), and AdaBoostRegressor.
+
 ### Model Performance
+
+SVR outperformed the other models on both the training and test sets, and in every metric.
+
+SVR:
+MSE: 0.61430
+RMSE: 0.78377 (783.77 USD)
+MAE: 0.50269 (502.69 USD)
+R-squared: 0.97032
 
 ### Feature Importance
 
@@ -118,7 +132,7 @@ I feature engineered using the dataset for future modeling. I made the following
   
 <figure>
 <img src="images/shap-results.jpg"><br/>
-  <figcaption>Figure 7: SHAP summary plot of the feature importance for the SVC model.</figcaption>
+  <figcaption>Figure 7: SHAP summary plot of the feature importance for the SVR model.</figcaption>
 </figure>
 <br/><br/>
   
@@ -130,4 +144,5 @@ I feature engineered using the dataset for future modeling. I made the following
 
 1. [Kaggle: Vehicle dataset](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho)
 2. [YouTube: Data Science Project from Scratch - Part 5 (Model Building) by Ken Jee](https://www.youtube.com/watch?v=7O4dpR9QMIM)
+3. [GitHub: ds_salary_proj by PlayingNumbers](https://github.com/PlayingNumbers/ds_salary_proj)
 
