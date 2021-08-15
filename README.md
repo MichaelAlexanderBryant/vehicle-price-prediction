@@ -112,7 +112,7 @@ I feature engineered using the dataset for future modeling. I made the following
 
 First, I split the data into train and tests sets with a test set size of 25%.
 
-I then hyperparameter tuned 12 different models and evaluated them using NMAE. I chose MAE because I didn't want the error to disproportionately represent the outliers.
+I then hyperparameter tuned 12 different models with five-fold cross-validation and evaluated them using NMAE. I chose MAE because I didn't want the error to disproportionately represent the outliers.
 
 The models I used were LinearRegression, Lasso, Ridge, ElasticNet, RandomForestRegressor, GradientBoostingRegressor, SVR, StackingRegressor, VotingRegressor, BaggingRegressor, BaggingRegressor (with pasting), and AdaBoostRegressor.
 
