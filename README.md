@@ -145,7 +145,7 @@ I built a [Heroku web app](https://predict-vehicle-price.herokuapp.com/) with a 
 <div align="center">
   
 <figure>
-<img src="images/web-app.JPG"><br/>
+<img src="images/frontend.JPG"><br/>
   <figcaption>Figure 8: Front end of application using the SVR model.</figcaption>
 </figure>
 <br/><br/>
