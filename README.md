@@ -1,6 +1,6 @@
 # Vehicle Sales Price Recommender App
 
-This repository is for the analysis and modeling done with the Kaggle: Vehicle Sales dataset. Below you will find an overview of the data, code, and results. The goal was to create an end-to-end project where I perform an exploratory data analysis, prepare the data (i.e., clean and feature engineer), apply machine learning algorithms to predict the sales price of vehicles, and create a [deployed application with a front end](https://predict-vehicle-price.herokuapp.com/) to productionize the best performing model. The repo for the app can be found [here](https://github.com/MichaelBryantDS/vehicle-price-pred-app).
+This repository is for the analysis and modeling done with the Kaggle: Vehicle Sales dataset. Below you will find an overview of the data, code, and results. The goal was to create an end-to-end project where I perform an exploratory data analysis, prepare the data (i.e., clean and feature engineer), apply machine learning algorithms to predict the sales price of vehicles, and create a [deployed application with a front-end](https://recommend-vehicle-price.herokuapp.com/) to productionize the best performing model. The repo for the app can be found [here](https://github.com/MichaelBryantDS/vehicle-price-rec-app).
 
 ### Code Used 
 
